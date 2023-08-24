@@ -1,0 +1,90 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Chat Navigation */
+.chatLogo {
+    display: block;
+    margin: auto;
+    width: 7%;
+    height: 5%;
+}
+
+body {
+    background: linear-gradient(180deg, #c1c1c1, skyblue);
+    height: 100vh;
+}
+
+/* Chat Message Box */
+.containerMessage {
+    width: 44%;
+    height: 69vh;
+    border: 2px solid black;
+    margin: auto;
+    overflow: auto;
+    border-bottom: none;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.containerMessage .message {
+    width: 30%;
+    background: #9781f1;
+    padding: 10px;
+    margin: 8px 30px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    color: black;
+}
+
+.containerMessage .left {
+    float: left;
+    clear: both;
+}
+
+.containerMessage .right {
+    float: right;
+    clear: both;
+}
+
+/* Chat Send Container */
+#sendContainer {
+    display: block;
+    margin: auto;
+    text-align: center;
+    align-items: center; /* Vertically center the elements */
+}
+
+#sendContainer input[type="text"] {
+    margin: 0; /* Remove the default margin */
+}
+
+#sendContainer button {
+    margin: 0; /* Remove the default margin */
+}
+
+#messageInput {
+    width: 39%;
+    height: 27px;
+    border: 2px solid black;
+    padding: 5px 13px;
+    border-bottom-left-radius: 10px;
+}
+:focus-visible {
+    outline: none;
+    background-color: rgb(200, 200, 200);
+}
+
+#sendBtn {
+    cursor: pointer;
+    padding: 11px 15px;
+    border: 2px solid black;
+    border-bottom-right-radius: 11px;
+}
+#sendBtn:hover{
+    background-color: rgb(40, 142, 40);
+    color: white;
+}
+
+
