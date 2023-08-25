@@ -10,6 +10,11 @@
     width: 7%;
     height: 5%;
 }
+.heading_chat{
+    color: #5d2ee9;
+    text-align: center;
+    margin-bottom: 10px;
+}
 
 body {
     background: linear-gradient(180deg, #c1c1c1, skyblue);
@@ -24,12 +29,13 @@ body {
     margin: auto;
     overflow: auto;
     border-bottom: none;
+    padding-top: 30px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
 
 .containerMessage .message {
-    width: 30%;
+    max-width: 30%;
     background: #9781f1;
     padding: 10px;
     margin: 8px 30px;
@@ -70,6 +76,7 @@ body {
     border: 2px solid black;
     padding: 5px 13px;
     border-bottom-left-radius: 10px;
+    font-size: 14px;
 }
 :focus-visible {
     outline: none;
@@ -86,5 +93,4 @@ body {
     background-color: rgb(40, 142, 40);
     color: white;
 }
-
 
